@@ -1,0 +1,27 @@
+dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.asset.taglib"
+	compileOnly group: "com.liferay", name: "com.liferay.comment.taglib"
+	compileOnly group: "com.liferay", name: "com.liferay.frontend.taglib"
+	compileOnly group: "com.liferay", name: "com.liferay.frontend.taglib.dynamic.section"
+	compileOnly group: "com.liferay", name: "com.liferay.frontend.taglib.form.navigator"
+	compileOnly group: "com.liferay", name: "com.liferay.frontend.taglib.util"
+	compileOnly group: "com.liferay", name: "com.liferay.journal.taglib"
+	compileOnly group: "com.liferay", name: "com.liferay.layout.taglib"
+	compileOnly group: "com.liferay", name: "com.liferay.site.taglib"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.util.taglib"
+	compileOnly group: "javax.portlet", name: "portlet-api"
+	compileOnly group: "javax.servlet", name: "javax.servlet-api"
+	compileOnly group: "jstl", name: "jstl"
+	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+	compileOnly project(":modules:myapp:myapp-api")
+	compileOnly project(":modules:myapp:myapp-service")
+	compileOnly group: "com.liferay", name:"com.liferay.journal.api", version:"2.1.0"
+	compileOnly group: "com.liferay", name:"com.liferay.dynamic.data.mapping.api", version:"2.0.1"
+	compileOnly group: "com.liferay", name:"com.liferay.headless.delivery.api", version:"5.0.0"
+	compileOnly group: "com.liferay", name:"com.liferay.portal.vulcan.api", version:"3.2.1"
+	compileOnly group: "com.liferay", name:"com.liferay.asset.list.api", version:"1.4.0"
+	compileOnly group: "com.liferay", name:"com.liferay.segments.api", version:"1.9.3"
+
+	cssBuilder group: "com.liferay", name: "com.liferay.css.builder", version: "3.0.2"
+}

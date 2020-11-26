@@ -1,0 +1,119 @@
+{
+    "availableLanguageIds": [
+        "es_ES"
+    ],
+    "defaultLanguageId": "es_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": "Title"
+            },
+            "predefinedValue": {
+                "es_ES": ""
+            },
+            "style": {
+                "es_ES": ""
+            },
+            "tip": {
+                "es_ES": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Title",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": "Icon Type"
+            },
+            "options": [
+                {
+                    "value": "icon-book",
+                    "label": {
+                        "es_ES": "Book"
+                    }
+                },
+                {
+                    "value": "icon-file-text",
+                    "label": {
+                        "es_ES": "File"
+                    }
+                },
+                {
+                    "value": "icon-folder-close",
+                    "label": {
+                        "es_ES": "Folder"
+                    }
+                },
+                {
+                    "value": "icon-rss",
+                    "label": {
+                        "es_ES": "Rss"
+                    }
+                },
+                {
+                    "value": "icon-user",
+                    "label": {
+                        "es_ES": "User"
+                    }
+                },
+                {
+                    "value": "icon-sitemap",
+                    "label": {
+                        "es_ES": "Sitemap"
+                    }
+                }
+            ],
+            "predefinedValue": {
+                "es_ES": [
+                    ""
+                ]
+            },
+            "style": {
+                "es_ES": ""
+            },
+            "tip": {
+                "es_ES": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "multiple": false,
+            "name": "IconType",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "select"
+        },
+        {
+            "label": {
+                "es_ES": "Link to Page"
+            },
+            "predefinedValue": {
+                "es_ES": ""
+            },
+            "style": {
+                "es_ES": ""
+            },
+            "tip": {
+                "es_ES": ""
+            },
+            "dataType": "link-to-page",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "LinkToPage",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-link-to-page"
+        }
+    ]
+}

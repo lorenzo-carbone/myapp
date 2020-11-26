@@ -1,0 +1,11 @@
+Bundle-Name: myapp-api
+Bundle-SymbolicName: com.liferay.demo.myapp.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.liferay.demo.myapp.exception,\
+	com.liferay.demo.myapp.model,\
+	com.liferay.demo.myapp.service,\
+	com.liferay.demo.myapp.service.persistence,\
+	com.liferay.demo.myapp.constants
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../myapp-service/service.xml
